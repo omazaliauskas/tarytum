@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>PRUSTA | Architektūra ir statyba</title>
-<meta name="description" content="PRUSTA, architektūros ir statybos šeimos biuras Vilniuje nuo 1988 metų. Namai, komerciniai objektai, interjerai ir statyba visoje Lietuvoje." />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0c0f'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' font-weight='700' text-anchor='middle' fill='%23d8ad5b'%3EP%3C/text%3E%3C/svg%3E" />
+<title>Tarytum | Interjero projektavimas</title>
+<meta name="description" content="Tarytum, interjero projektavimo studija. Kuriame jaukius ir funkcionalius interjerus Lietuvoje ir užsienyje." />
+<link rel="icon" type="image/png" href="assets/images/tarytum/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -17,12 +17,12 @@
 <header class="nav" id="top">
   <div class="nav__inner">
     <span class="nav__spacer" aria-hidden="true"></span>
-    <a href="#top" class="nav__brand" aria-label="PRUSTA pradžia">
-      <span class="nav__brand-name">PRUSTA</span>
-      <span class="nav__brand-sub">architektūra ir statyba</span>
+    <a href="#top" class="nav__brand" aria-label="Tarytum pradžia">
+      <span class="nav__brand-name">TARYTUM</span>
+      <span class="nav__brand-sub">interjero projektavimas</span>
     </a>
     <div class="nav__cta">
-      <a href="#kontaktai" class="btn btn--outline">Susisiekti</a>
+      <a href="#kontaktai" class="btn btn--cta">Susisiekti</a>
     </div>
   </div>
 </header>
@@ -31,95 +31,75 @@
 <section class="hero" id="hero">
   <div class="hero__overlay"></div>
   <div class="hero__content reveal">
-    <p class="hero__eyebrow">Architektūra ir statyba nuo 1988</p>
-    <h1 class="hero__title">PRUSTA</h1>
-    <p class="hero__lead">Kuriame architektūrą ir erdves, kurios gerina žmonių gyvenimo kokybę.</p>
+    <p class="hero__eyebrow">Interjero projektavimas</p>
+    <h1 class="hero__title">TARYTUM</h1>
+    <p class="hero__lead">Kuriame jaukius ir funkcionalius interjerus, kuriuose malonu gyventi.</p>
     <div class="hero__actions">
-      <a href="#projektai" class="btn btn--gold">Mūsų darbai</a>
+      <a href="#projektai" class="btn btn--cta">Mūsų darbai</a>
       <a href="#kontaktai" class="btn btn--ghost">Pradėkime projektą</a>
     </div>
   </div>
 </section>
 
 <!-- ============ PROJEKTAI ============ -->
-<section class="section section--marble" id="projektai">
-  <div class="parallax-bg" aria-hidden="true"></div>
+<section class="section section--sand" id="projektai">
   <div class="container">
     <div class="section__head reveal">
       <p class="eyebrow">Projektai</p>
       <h2 class="section__title">Mūsų darbai</h2>
-      <p class="section__desc">Namai, sodybos, komerciniai objektai ir interjerai, sukurti skirtingo mastelio ir biudžeto projektams visoje Lietuvoje.</p>
+      <p class="section__desc">Įgyvendinti interjerai Lietuvoje ir Belgijoje, kuriuose dera jaukumas, funkcionalumas ir natūralios medžiagos.</p>
     </div>
 
-    <div class="filters reveal" role="tablist" aria-label="Projektų kategorijos">
-      <button class="filter is-active" data-filter="all" role="tab">Visi</button>
-      <button class="filter" data-filter="residential" role="tab">Gyvenamieji</button>
-      <button class="filter" data-filter="commercial" role="tab">Komercija</button>
-      <button class="filter" data-filter="construction" role="tab">Statyba</button>
-    </div>
-
-    <div class="carousel reveal" id="projektaiCarousel" data-desktop="3" data-tablet="2" data-mobile="2">
+    <div class="carousel reveal" data-desktop="3" data-tablet="2" data-mobile="2">
       <div class="carousel__viewport">
         <div class="carousel__track">
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-01.jpg">
-            <div class="card__media"><img src="assets/images/work-01.jpg" alt="Varinis namas Vilniuje" loading="lazy" /></div>
-            <div class="card__body"><h3>Varinis namas</h3><p>Gyvenamieji, Vilnius</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t04.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t04.jpg" alt="Piliamiestis, Kaunas" loading="lazy" /></div>
+            <div class="card__body"><h3>Piliamiestis</h3><p>Kaunas</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-02.jpg">
-            <div class="card__media"><img src="assets/images/work-02.jpg" alt="Whispering Lightscape" loading="lazy" /></div>
-            <div class="card__body"><h3>Whispering Lightscape</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t02.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t02.jpg" alt="Eiguliai, Kaunas" loading="lazy" /></div>
+            <div class="card__body"><h3>Eiguliai</h3><p>Kaunas</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-03.jpg">
-            <div class="card__media"><img src="assets/images/work-03.jpg" alt="Dive in to the Green" loading="lazy" /></div>
-            <div class="card__body"><h3>Dive in to the Green</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t05.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t05.jpg" alt="Parko namai, Kaunas" loading="lazy" /></div>
+            <div class="card__body"><h3>Parko namai</h3><p>Kaunas</p></div>
           </article>
-          <article class="card card--project" data-cat="commercial" data-img="assets/images/work-13.jpg">
-            <div class="card__media"><img src="assets/images/work-13.jpg" alt="Vituko durų salonas" loading="lazy" /></div>
-            <div class="card__body"><h3>Vituko durų salonas</h3><p>Komercija</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t07.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t07.jpg" alt="Verkiai, Vilnius" loading="lazy" /></div>
+            <div class="card__body"><h3>Verkiai</h3><p>Vilnius</p></div>
           </article>
-          <article class="card card--project" data-cat="commercial" data-img="assets/images/work-14.jpg">
-            <div class="card__media"><img src="assets/images/work-14.jpg" alt="SV logistic biuras" loading="lazy" /></div>
-            <div class="card__body"><h3>SV logistic biuras</h3><p>Komercija</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t08.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t08.jpg" alt="NOA namai, Noreikiškės" loading="lazy" /></div>
+            <div class="card__body"><h3>NOA namai</h3><p>Noreikiškės</p></div>
           </article>
-          <article class="card card--project" data-cat="commercial" data-img="assets/images/work-15.jpg">
-            <div class="card__media"><img src="assets/images/work-15.jpg" alt="INSPIRED UM biuras" loading="lazy" /></div>
-            <div class="card__body"><h3>INSPIRED UM biuras</h3><p>Komercija</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t10.jpg">
+            <div class="card__media"><img src="assets/images/tarytum/t10.jpg" alt="Kleboniškis, Kaunas" loading="lazy" /></div>
+            <div class="card__body"><h3>Kleboniškis</h3><p>Kaunas</p></div>
           </article>
-          <article class="card card--project" data-cat="construction" data-img="assets/images/work-07.jpg">
-            <div class="card__media"><img src="assets/images/work-07.jpg" alt="Three Pines" loading="lazy" /></div>
-            <div class="card__body"><h3>Three Pines</h3><p>Statyba</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t11.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t11.webp" alt="Ghent, Belgija" loading="lazy" /></div>
+            <div class="card__body"><h3>Ghent</h3><p>Belgija</p></div>
           </article>
-          <article class="card card--project" data-cat="construction" data-img="assets/images/work-08.jpg">
-            <div class="card__media"><img src="assets/images/work-08.jpg" alt="Hanging in the Air" loading="lazy" /></div>
-            <div class="card__body"><h3>Hanging in the Air</h3><p>Statyba</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t12.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t12.webp" alt="Trakai" loading="lazy" /></div>
+            <div class="card__body"><h3>Trakai</h3><p>Realizacija</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-04.jpg">
-            <div class="card__media"><img src="assets/images/work-04.jpg" alt="Sodyba prie ežero" loading="lazy" /></div>
-            <div class="card__body"><h3>Sodyba prie ežero</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t14.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t14.webp" alt="Ukmergė" loading="lazy" /></div>
+            <div class="card__body"><h3>Ukmergė</h3><p>Gyvenamasis būstas</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-05.jpg">
-            <div class="card__media"><img src="assets/images/work-05.jpg" alt="House in the Woods" loading="lazy" /></div>
-            <div class="card__body"><h3>House in the Woods</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t15.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t15.webp" alt="Klaipėda" loading="lazy" /></div>
+            <div class="card__body"><h3>Klaipėda</h3><p>Gyvenamasis būstas</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-06.jpg">
-            <div class="card__media"><img src="assets/images/work-06.jpg" alt="Villa Pjievė" loading="lazy" /></div>
-            <div class="card__body"><h3>Villa Pjievė</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t16.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t16.webp" alt="Aleksotas, Kaunas" loading="lazy" /></div>
+            <div class="card__body"><h3>Aleksotas</h3><p>Kaunas</p></div>
           </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-09.jpg">
-            <div class="card__media"><img src="assets/images/work-09.jpg" alt="Home Full of Warmth" loading="lazy" /></div>
-            <div class="card__body"><h3>Home Full of Warmth</h3><p>Gyvenamieji, interjeras</p></div>
-          </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-10.jpg">
-            <div class="card__media"><img src="assets/images/work-10.jpg" alt="Namas nr. 49, Vilnius" loading="lazy" /></div>
-            <div class="card__body"><h3>Namas nr. 49</h3><p>Gyvenamieji, Vilnius</p></div>
-          </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-11.jpg">
-            <div class="card__media"><img src="assets/images/work-11.jpg" alt="Namas Tauragėje" loading="lazy" /></div>
-            <div class="card__body"><h3>Namas Tauragėje</h3><p>Gyvenamieji</p></div>
-          </article>
-          <article class="card card--project" data-cat="residential" data-img="assets/images/work-12.jpg">
-            <div class="card__media"><img src="assets/images/work-12.jpg" alt="Round We Go" loading="lazy" /></div>
-            <div class="card__body"><h3>Round We Go</h3><p>Gyvenamieji</p></div>
+          <article class="card card--project" data-img="assets/images/tarytum/t17.webp">
+            <div class="card__media"><img src="assets/images/tarytum/t17.webp" alt="Realizacija, Trakai" loading="lazy" /></div>
+            <div class="card__body"><h3>Realizacija</h3><p>Trakai</p></div>
           </article>
         </div>
       </div>
@@ -130,49 +110,49 @@
   </div>
 </section>
 
-<!-- ============ PASLAUGOS ============ -->
+<!-- ============ PASLAUGOS (darbo nuotrauka + stiklinės kortelės) ============ -->
 <section class="section section--image services" id="paslaugos">
-  <div class="section__bg" style="background-image:url('assets/images/bg-services.jpg')"></div>
+  <div class="parallax-bg" aria-hidden="true" style="background-image:url('assets/images/tarytum/t09.jpg')"></div>
   <div class="section__scrim"></div>
   <div class="container">
-    <div class="section__head reveal">
+    <div class="section__head section__head--light reveal">
       <p class="eyebrow">Paslaugos</p>
-      <h2 class="section__title">Ką kuriame</h2>
-      <p class="section__desc">Nuo pirmo eskizo iki pastatyto objekto, dirbame su visais projekto etapais po vienu stogu.</p>
+      <h2 class="section__title">Ką siūlome</h2>
+      <p class="section__desc">Nuo pirmos idėjos iki paskutinės detalės, pasirūpiname visu interjero kūrimo procesu.</p>
     </div>
 
     <div class="carousel carousel--light reveal" data-desktop="3" data-tablet="2" data-mobile="1">
       <div class="carousel__viewport">
         <div class="carousel__track">
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">01</span>
-            <h3>Gyvenamoji architektūra</h3>
-            <p>Individualių namų ir sodybų projektavimas nuo koncepcijos iki rakto, pritaikytas jūsų gyvenimo būdui.</p>
+            <h3>Interjero projektavimas</h3>
+            <p>Pilnas interjero projektas nuo koncepcijos iki įgyvendinimo, pritaikytas jūsų poreikiams.</p>
           </article>
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">02</span>
-            <h3>Komerciniai objektai</h3>
-            <p>Biurai, salonai ir viešosios erdvės, kurios atspindi prekės ženklą ir tarnauja žmonėms.</p>
+            <h3>Erdvės planavimas</h3>
+            <p>Funkcionalūs išplanavimai, kurie atsižvelgia į jūsų gyvenimo būdą ir įpročius.</p>
           </article>
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">03</span>
-            <h3>Statyba</h3>
-            <p>Pilnas statybos ciklas ir techninė priežiūra, kad idėja būtų įgyvendinta iki paskutinės detalės.</p>
+            <h3>3D vizualizacijos</h3>
+            <p>Realistiškos vizualizacijos, padedančios pamatyti rezultatą dar prieš darbų pradžią.</p>
           </article>
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">04</span>
-            <h3>Interjero dizainas</h3>
-            <p>Interjerai, kuriuose dera funkcija, natūralios medžiagos, šviesa ir harmoninga spalvų gama.</p>
+            <h3>Baldų projektavimas</h3>
+            <p>Individualūs baldai ir jų brėžiniai, sukurti konkrečiai jūsų erdvei.</p>
           </article>
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">05</span>
-            <h3>Rekonstrukcija ir renovacija</h3>
-            <p>Esamų pastatų atnaujinimas, pritaikymas naujoms reikmėms ir vertės atkūrimas.</p>
+            <h3>Medžiagų parinkimas</h3>
+            <p>Apdailos medžiagos, spalvos ir faktūros, kurios kuria darnią visumą.</p>
           </article>
-          <article class="card card--service">
+          <article class="card card--service card--glass float">
             <span class="card__num">06</span>
-            <h3>Kraštovaizdis</h3>
-            <p>Sklypo ir aplinkos sprendimai, kurie natūraliai papildo architektūrą.</p>
+            <h3>Projekto priežiūra</h3>
+            <p>Konsultacijos ir priežiūra darbų metu, kad rezultatas atitiktų viziją.</p>
           </article>
         </div>
       </div>
@@ -183,18 +163,13 @@
   </div>
 </section>
 
-<!-- ===== PROCESAS + APDOVANOJIMAI: bendras marmuro fonas ===== -->
-<div class="marble-group">
-  <div class="parallax-bg" aria-hidden="true"></div>
-  <div class="marble-scrim" aria-hidden="true"></div>
-
 <!-- ============ PROCESAS ============ -->
-<section class="section section--onmarble" id="procesas">
+<section class="section section--ivory" id="procesas">
   <div class="container">
     <div class="section__head reveal">
       <p class="eyebrow">Procesas</p>
       <h2 class="section__title">Kaip dirbame</h2>
-      <p class="section__desc">Mūsų projektavimo procesas atviras, interaktyvus ir bendradarbiaujantis. Kiekvienam projektui kuriame unikalų sprendimą.</p>
+      <p class="section__desc">Aiškūs žingsniai nuo pirmo pokalbio iki įgyvendinto interjero.</p>
     </div>
 
     <div class="carousel reveal" data-desktop="3" data-tablet="2" data-mobile="1">
@@ -202,28 +177,28 @@
         <div class="carousel__track">
           <article class="card card--step">
             <span class="card__step-num">1</span>
-            <h3>Pažintis ir poreikiai</h3>
-            <p>Išklausome jūsų viziją, gyvenimo būdą, tikslus bei galimybes.</p>
+            <h3>Susipažinimas</h3>
+            <p>Aptariame jūsų poreikius, viziją, gyvenimo būdą ir biudžetą.</p>
           </article>
           <article class="card card--step">
             <span class="card__step-num">2</span>
-            <h3>Sklypo ir erdvės analizė</h3>
-            <p>Įvertiname esamą situaciją, kontekstą ir aplinkos galimybes.</p>
+            <h3>Planavimas</h3>
+            <p>Parengiame erdvės išplanavimą ir stiliaus koncepciją.</p>
           </article>
           <article class="card card--step">
             <span class="card__step-num">3</span>
-            <h3>Unikali koncepcija</h3>
-            <p>Kuriame individualų sprendimą kiekvienam projektui, o ne kartojame šablonus.</p>
+            <h3>Vizualizacijos</h3>
+            <p>Kuriame realistiškas 3D vizualizacijas su medžiagomis ir spalvomis.</p>
           </article>
           <article class="card card--step">
             <span class="card__step-num">4</span>
-            <h3>Projektavimas</h3>
-            <p>Parengiame architektūrinį ir techninį projektą su visomis detalėmis.</p>
+            <h3>Dokumentacija</h3>
+            <p>Parengiame techninius brėžinius ir medžiagų sąrašus įgyvendinimui.</p>
           </article>
           <article class="card card--step">
             <span class="card__step-num">5</span>
-            <h3>Statyba ir priežiūra</h3>
-            <p>Įgyvendiname ir prižiūrime darbus iki galutinio rezultato.</p>
+            <h3>Įgyvendinimas</h3>
+            <p>Prižiūrime darbus iki galutinio, jums patinkančio rezultato.</p>
           </article>
         </div>
       </div>
@@ -234,118 +209,19 @@
   </div>
 </section>
 
-<!-- ============ APDOVANOJIMAI ============ -->
-<section class="section section--onmarble" id="apdovanojimai">
-  <div class="container">
-    <div class="section__head reveal">
-      <p class="eyebrow">Apdovanojimai</p>
-      <h2 class="section__title">Pripažinimas</h2>
-      <p class="section__desc">Nuo 1999 metų mūsų darbai vertinami Lietuvos ir tarptautiniuose architektūros bei dizaino konkursuose.</p>
-    </div>
-
-    <div class="carousel reveal" data-desktop="3" data-tablet="2" data-mobile="1">
-      <div class="carousel__viewport">
-        <div class="carousel__track">
-          <article class="card card--award">
-            <span class="award__year">2022</span>
-            <h3 class="award__title">Žvilgsnis į save</h3>
-            <p class="award__detail">Projektas „Namas Miškuose" tarp geriausių Lietuvos šiuolaikinės architektūros darbų.</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2021</span>
-            <h3 class="award__title">Auksinė paletė</h3>
-            <p class="award__detail">Ieva Prunskaitė apdovanota už lietuviško dizaino propagavimą.</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2020</span>
-            <h3 class="award__title">Geras dizainas</h3>
-            <p class="award__detail">I vieta baldų ir apšvietimo kategorijoje, projektas „Grojantis stalas".</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2019</span>
-            <h3 class="award__title">Building of the Year</h3>
-            <p class="award__detail">Nominacija kategorijoje „Refurbishment in architecture".</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2018</span>
-            <h3 class="award__title">Building of the Year</h3>
-            <p class="award__detail">Nominacijos kategorijose „Offices" ir „Housing".</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2017</span>
-            <h3 class="award__title">Idea-Tops</h3>
-            <p class="award__detail">International Space Design Awards nominacija už INSPIRED UM biurą.</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2015</span>
-            <h3 class="award__title">Interia Awards</h3>
-            <p class="award__detail">Apdovanojimas už geriausią užmiesčio namą Lietuvoje.</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">2007</span>
-            <h3 class="award__title">Vitruvijaus statulėlė</h3>
-            <p class="award__detail">Individualių namų architektūra, „Pripažintas tarp kolegų".</p>
-          </article>
-          <article class="card card--award">
-            <span class="award__year">1999</span>
-            <h3 class="award__title">Knauf architektams</h3>
-            <p class="award__detail">I vieta už gražaus gyvenimo architektūrą.</p>
-          </article>
-        </div>
-      </div>
-      <button class="carousel__btn carousel__btn--prev" aria-label="Ankstesnis">‹</button>
-      <button class="carousel__btn carousel__btn--next" aria-label="Kitas">›</button>
-      <div class="carousel__dots" aria-hidden="true"></div>
-    </div>
-  </div>
-</section>
-</div>
-<!-- ===== /marble-group ===== -->
-
-<!-- ============ KONTAKTAI ============ -->
+<!-- ============ KONTAKTAI (darbo nuotrauka fonas) ============ -->
 <section class="section section--image contacts" id="kontaktai">
-  <div class="section__bg" style="background-image:url('assets/images/bg-contacts.jpg')"></div>
+  <div class="parallax-bg" aria-hidden="true" style="background-image:url('assets/images/tarytum/t06.jpg')"></div>
   <div class="section__scrim"></div>
   <div class="container">
-    <div class="section__head reveal">
+    <div class="section__head section__head--light reveal">
       <p class="eyebrow">Kontaktai</p>
       <h2 class="section__title">Pradėkime pokalbį</h2>
-      <p class="section__desc">Papasakokite apie savo idėją, o mes padėsime ją paversti realybe.</p>
-    </div>
-
-    <div class="contacts__grid reveal">
-      <a class="contact-tile" href="mailto:prusta.info@gmail.com">
-        <span class="contact-tile__ico">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm16 4.7-7.47 4.67a1 1 0 0 1-1.06 0L4 8.7V18h16V8.7ZM20 6H4v.4l8 5 8-5V6Z"/></svg>
-        </span>
-        <span class="contact-tile__k">El. paštas</span>
-        <span class="contact-tile__v">prusta.info@gmail.com</span>
-      </a>
-      <a class="contact-tile" href="tel:+37068534818">
-        <span class="contact-tile__ico">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.6a1 1 0 0 1-.25 1L6.6 10.8Z"/></svg>
-        </span>
-        <span class="contact-tile__k">Telefonas</span>
-        <span class="contact-tile__v">+370 685 34818</span>
-      </a>
-      <div class="contact-tile contact-tile--static">
-        <span class="contact-tile__ico">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
-        </span>
-        <span class="contact-tile__k">Adresas</span>
-        <span class="contact-tile__v">Obelų g. 11, LT-08315, Vilnius</span>
-      </div>
-      <a class="contact-tile" href="https://www.facebook.com/Prusta-architekt%C5%ABra-ir-statyba-784519064936570/" target="_blank" rel="noopener">
-        <span class="contact-tile__ico">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 9h3l.5-3H14V4.5c0-.9.3-1.5 1.6-1.5H17V.3C16.7.2 15.8.1 14.8.1 12.5.1 11 1.5 11 4.1V6H8v3h3v9h3V9Z"/></svg>
-        </span>
-        <span class="contact-tile__k">Socialiniai tinklai</span>
-        <span class="contact-tile__v">Facebook ir LinkedIn</span>
-      </a>
+      <p class="section__desc">Papasakokite apie savo erdvę ir idėją, o mes padėsime ją įgyvendinti.</p>
     </div>
 
     <div class="contacts__panels reveal">
-      <div class="contact-form-wrap">
+      <div class="contact-form-wrap card--glass">
         <h3 class="panel__title">Parašykite mums</h3>
         <form class="contact-form" id="contactForm" novalidate>
           <div class="form-row">
@@ -372,22 +248,40 @@
             <input type="file" name="failai" id="fileInput" multiple />
             <span class="file-field__box">
               <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M16.5 6v9.5a4.5 4.5 0 0 1-9 0V5a3 3 0 0 1 6 0v9.5a1.5 1.5 0 0 1-3 0V6H8v8.5a3 3 0 0 0 6 0V5a4.5 4.5 0 0 0-9 0v10.5a6 6 0 0 0 12 0V6h-1.5Z"/></svg>
-              <span id="fileText">Pasirinkite failus (brėžiniai, nuotraukos)</span>
+              <span id="fileText">Pasirinkite failus (planai, nuotraukos)</span>
             </span>
           </label>
-          <button type="submit" class="btn btn--gold form-submit">Siųsti užklausą</button>
+          <button type="submit" class="btn btn--cta form-submit">Siųsti užklausą</button>
           <p class="form-note" id="formNote" hidden>Ačiū! Jūsų užklausa paruošta. Susisieksime su jumis artimiausiu metu.</p>
         </form>
       </div>
 
-      <div class="contact-info-wrap">
-        <h3 class="panel__title">PRUSTA komanda</h3>
-        <ul class="team-list">
-          <li><span class="team-list__name">Ieva Prunskaitė</span><span class="team-list__role">Direktorė, architektė</span><a href="tel:+37068534818">+370 685 34818</a></li>
-          <li><span class="team-list__name">Juozas Prunskas</span><span class="team-list__role">Direktorius</span><a href="tel:+37069918155">+370 699 18155</a></li>
-          <li><span class="team-list__name">Eglė Prunskienė</span><span class="team-list__role">Architektė, projektų vadovė</span><a href="tel:+37068526024">+370 685 26024</a></li>
-          <li><span class="team-list__name">Eglė Prunskaitė-Braziulė</span><span class="team-list__role">Interjero dizainerė</span><a href="tel:+37065238348">+370 652 38348</a></li>
-          <li><span class="team-list__name">Rokas Puzinas</span><span class="team-list__role">Architektas</span><a href="tel:+37063898295">+370 638 98295</a></li>
+      <div class="contact-info-wrap card--glass">
+        <h3 class="panel__title">Kontaktai</h3>
+        <ul class="info-list">
+          <li>
+            <span class="info-list__k">El. paštas</span>
+            <a class="info-list__v" href="mailto:home@tarytum.com">home@tarytum.com</a>
+          </li>
+          <li>
+            <span class="info-list__k">Telefonas</span>
+            <a class="info-list__v" href="tel:+37063955105">+370 639 55105</a>
+          </li>
+          <li>
+            <span class="info-list__k">Adresas</span>
+            <span class="info-list__v">Pilies tak. 1, Raudondvaris, Kauno r.</span>
+          </li>
+          <li>
+            <span class="info-list__k">Socialiniai tinklai</span>
+            <span class="info-social">
+              <a href="https://www.facebook.com/tarytum" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M14 9h3l.5-3H14V4.5c0-.9.3-1.5 1.6-1.5H17V.3C16.7.2 15.8.1 14.8.1 12.5.1 11 1.5 11 4.1V6H8v3h3v9h3V9Z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/tarytum.studio/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.42.56.22.96.48 1.38.9.42.42.68.82.9 1.38.17.42.37 1.06.42 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.42 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.17-1.06.37-2.23.42-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.42a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.17-.42-.37-1.06-.42-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.42-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.17 1.06-.37 2.23-.42C8.42 2.21 8.8 2.2 12 2.2Zm0 4.86A4.94 4.94 0 1 0 12 16.94 4.94 4.94 0 0 0 12 7.06Zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28Zm5.14-3.24a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+              </a>
+            </span>
+          </li>
         </ul>
       </div>
     </div>
@@ -395,31 +289,30 @@
 </section>
 
 <!-- ============ APIE MUS (paskutinė) ============ -->
-<section class="section section--marble" id="apie">
-  <div class="parallax-bg" aria-hidden="true"></div>
+<section class="section section--sand" id="apie">
   <div class="container">
     <div class="section__head reveal">
       <p class="eyebrow">Apie mus</p>
-      <h2 class="section__title">Šeimos biuras nuo 1988</h2>
+      <h2 class="section__title">Studija Tarytum</h2>
     </div>
 
     <div class="about">
       <div class="about__photo reveal">
-        <img src="assets/images/work-01.jpg" alt="PRUSTA projektas, Varinis namas Vilniuje" loading="lazy" />
+        <img src="assets/images/tarytum/t01.jpg" alt="Tarytum interjero projektas" loading="lazy" />
       </div>
       <div class="about__text reveal">
-        <p>PRUSTA yra architektūros ir statybos šeimos biuras, kuriantis nuo 1988 metų. Jį įkūrė architektė Eglė Prunskienė ir inžinierius, statybos vadovas Juozas Prunskas.</p>
-        <p>Vėliau prie komandos prisijungė dukterys: architektė Ieva Prunskaitė su vyru architektu Roku Puzinu ir interjero dizainerė Eglė Braziulė Prunskaitė. Imamės namų, komercinių erdvių, biurų, kraštovaizdžio, rekonstrukcijų ir interjerų projektų.</p>
-        <p class="about__quote">„Tikime, kad architektūra ir dizainas yra svarbūs, o savo darbu galime prisidėti prie geresnės visų gyvenimo kokybės.“</p>
-        <p class="about__loc">Įsikūrę Vilniuje, dirbame visoje Lietuvoje.</p>
+        <p>Tarytum yra interjero projektavimo studija, įsikūrusi Raudondvaryje, Kauno rajone. Kuriame gyvenamųjų ir komercinių erdvių interjerus, kuriuose dera jaukumas, funkcionalumas ir estetika.</p>
+        <p>Savo darbuose renkamės natūralias medžiagas, ramias spalvas ir apgalvotą apšvietimą. Kiekvienam projektui ieškome individualaus sprendimo, atspindinčio žmones, kurie tose erdvėse gyvens.</p>
+        <p class="about__quote">„Tikime, kad gera erdvė yra ta, į kurią malonu grįžti.“</p>
+        <p class="about__loc">Dirbame visoje Lietuvoje, taip pat ir užsienyje.</p>
       </div>
     </div>
 
     <div class="stats reveal">
-      <div class="stat"><span class="stat__num">1988</span><span class="stat__label">Įkūrimo metai</span></div>
-      <div class="stat"><span class="stat__num">35+</span><span class="stat__label">Metų patirtis</span></div>
-      <div class="stat"><span class="stat__num">80+</span><span class="stat__label">Įgyvendintų projektų</span></div>
-      <div class="stat"><span class="stat__num">5</span><span class="stat__label">Komandos nariai</span></div>
+      <div class="stat"><span class="stat__num">20+</span><span class="stat__label">Įgyvendintų projektų</span></div>
+      <div class="stat"><span class="stat__num">2</span><span class="stat__label">Šalys</span></div>
+      <div class="stat"><span class="stat__num">100%</span><span class="stat__label">Individualūs sprendimai</span></div>
+      <div class="stat"><span class="stat__num">A–Z</span><span class="stat__label">Nuo idėjos iki rakto</span></div>
     </div>
   </div>
 </section>
@@ -428,37 +321,36 @@
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">
-      <span class="footer__logo">PRUSTA</span>
-      <span class="footer__tag">architektūra ir statyba</span>
-      <p>Kuriame architektūrą, kuri gerina žmonių gyvenimo kokybę. Vilnius, Lietuva.</p>
+      <span class="footer__logo">TARYTUM</span>
+      <span class="footer__tag">interjero projektavimas</span>
+      <p>Jaukūs ir funkcionalūs interjerai. Raudondvaris, Kauno r., Lietuva.</p>
     </div>
     <nav class="footer__nav" aria-label="Poraštės navigacija">
       <a href="#projektai">Projektai</a>
       <a href="#paslaugos">Paslaugos</a>
       <a href="#procesas">Procesas</a>
-      <a href="#apdovanojimai">Apdovanojimai</a>
       <a href="#kontaktai">Kontaktai</a>
       <a href="#apie">Apie mus</a>
     </nav>
     <div class="footer__contact">
-      <p>Obelų g. 11, LT-08315, Vilnius</p>
-      <p><a href="mailto:prusta.info@gmail.com">prusta.info@gmail.com</a></p>
-      <p><a href="tel:+37068534818">+370 685 34818</a></p>
+      <p>Pilies tak. 1, Raudondvaris, Kauno r.</p>
+      <p><a href="mailto:home@tarytum.com">home@tarytum.com</a></p>
+      <p><a href="tel:+37063955105">+370 639 55105</a></p>
       <div class="footer__social">
-        <a href="https://www.facebook.com/Prusta-architekt%C5%ABra-ir-statyba-784519064936570/" target="_blank" rel="noopener" aria-label="Facebook">
+        <a href="https://www.facebook.com/tarytum" target="_blank" rel="noopener" aria-label="Facebook">
           <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M14 9h3l.5-3H14V4.5c0-.9.3-1.5 1.6-1.5H17V.3C16.7.2 15.8.1 14.8.1 12.5.1 11 1.5 11 4.1V6H8v3h3v9h3V9Z"/></svg>
         </a>
-        <a href="https://www.linkedin.com/company/uabprusta/" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C20.4 8.65 22 10.6 22 14v7h-4v-6.2c0-1.48-.03-3.4-2.07-3.4-2.07 0-2.39 1.62-2.39 3.29V21H9V9Z"/></svg>
+        <a href="https://www.instagram.com/tarytum.studio/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.42.56.22.96.48 1.38.9.42.42.68.82.9 1.38.17.42.37 1.06.42 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.42 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.17-1.06.37-2.23.42-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.42a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.17-.42-.37-1.06-.42-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.42-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.17 1.06-.37 2.23-.42C8.42 2.21 8.8 2.2 12 2.2Zm0 4.86A4.94 4.94 0 1 0 12 16.94 4.94 4.94 0 0 0 12 7.06Zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28Zm5.14-3.24a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
         </a>
-        <a href="mailto:prusta.info@gmail.com" aria-label="El. paštas">
+        <a href="mailto:home@tarytum.com" aria-label="El. paštas">
           <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm16 4.7-7.47 4.67a1 1 0 0 1-1.06 0L4 8.7V18h16V8.7ZM20 6H4v.4l8 5 8-5V6Z"/></svg>
         </a>
       </div>
     </div>
   </div>
   <div class="footer__bottom">
-    <span>© 1988 iki 2026 PRUSTA, UAB. Įmonės kodas 124274217. Visos teisės saugomos.</span>
+    <span>© 2024 iki 2026 Tarytum. Visos teisės saugomos.</span>
   </div>
 </footer>
 
