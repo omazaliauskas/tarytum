@@ -360,6 +360,33 @@
   <img src="" alt="Projekto nuotrauka" id="lightboxImg" />
 </div>
 
+<!-- ============ POKALBIŲ ASISTENTAS ============ -->
+<div class="chat" id="chat">
+  <button class="chat__fab" id="chatFab" aria-label="Atidaryti pokalbį">
+    <svg class="chat__fab-open" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2Zm3 6a1.2 1.2 0 1 0 0 2.4A1.2 1.2 0 0 0 7 10Zm5 0a1.2 1.2 0 1 0 0 2.4A1.2 1.2 0 0 0 12 10Zm5 0a1.2 1.2 0 1 0 0 2.4A1.2 1.2 0 0 0 17 10Z"/></svg>
+    <svg class="chat__fab-close" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6 6.4 5Z"/></svg>
+  </button>
+
+  <div class="chat__panel" id="chatPanel" role="dialog" aria-label="Tarytum asistentas" hidden>
+    <div class="chat__head">
+      <div class="chat__ava" aria-hidden="true">T</div>
+      <div class="chat__titles">
+        <span class="chat__title">Tarytum asistentas</span>
+        <span class="chat__status">Atsako iš karto</span>
+      </div>
+      <button class="chat__close" id="chatClose" aria-label="Uždaryti pokalbį">×</button>
+    </div>
+    <div class="chat__body" id="chatBody" aria-live="polite"></div>
+    <div class="chat__chips" id="chatChips"></div>
+    <form class="chat__input" id="chatForm" autocomplete="off">
+      <input type="text" id="chatText" placeholder="Rašykite klausimą..." aria-label="Jūsų žinutė" />
+      <button type="submit" aria-label="Siųsti žinutę">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M3.4 20.4 21 12 3.4 3.6 3.4 10l12 2-12 2v6.4Z"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
 <script src="assets/js/main.js"></script>
 </body>
 </html>
